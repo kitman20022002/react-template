@@ -3,14 +3,14 @@ import './HomePage.css'
 import Header from "../../component/Header/Header";
 
 class HomePage extends React.Component {
-    render() {
-        return (
-            <React.Fragment>
-                <h1>Home</h1>
-                <Header/>
-            </React.Fragment>
-        );
-    }
+  render() {
+    return (
+      <>
+        <h1>Home</h1>
+        <Header/>
+      </>
+    );
+  }
 }
 
 export default HomePage;
